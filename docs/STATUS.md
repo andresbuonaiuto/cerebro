@@ -10,7 +10,7 @@
 | # | Phase | Status | Verified |
 |---|---|---|---|
 | 0 | Scaffolding | 🟢 local done, awaiting GitHub push | 2026-07-17 |
-| 1 | BLUEPRINT.md + structure templates | ⬜ | — |
+| 1 | BLUEPRINT.md + structure templates | 🟢 done | 2026-07-17 |
 | 2 | Installable Claude Skill | ⬜ | — |
 | 3 | PDF→markdown tooling | ⬜ | — |
 | 4 | Multi-AI templates + example brain | ⬜ | — |
@@ -25,6 +25,14 @@
 - [x] `docs/STATUS.md` and ≥6 ADRs exist (8 ADRs)
 
 **Blocker:** `gh` CLI is not installed on this machine. Creating the GitHub repo and the first push are a manual step for Andres (commands in "Pending, non-code" below).
+
+## Phase 1 checklist (done 2026-07-17)
+
+- [x] `BLUEPRINT.md` covers CREATE/INGEST/QUERY/LINT with numbered steps, the
+      anti-hallucination "no coverage" rule, and the idea-validation format
+- [x] `templates/brain-structure/` replicates the structure declared in the
+      blueprint exactly (verified by listing)
+- [x] `bash scripts/check.sh` green (lint + links)
 
 ## Dev environment
 
