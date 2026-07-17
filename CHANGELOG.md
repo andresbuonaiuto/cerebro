@@ -8,6 +8,11 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Added
 
+- Phase 2: portable `skill/SKILL.md` (English, no hardcoded paths) that drives
+  the four operations in natural language, deferring to the bundled blueprint.
+- `scripts/build-skill.sh` + `scripts/zip_skill.py` package the skill into
+  `dist/cerebro-skill.zip` (cross-platform, uses Python's zipfile so no `zip`
+  binary is needed on Windows).
 - Phase 1: `BLUEPRINT.md`, the normative spec for building and maintaining a
   brain (core principle, page conventions with confidence levels, the four
   operations, contradiction handling, source conversion, scale rules).

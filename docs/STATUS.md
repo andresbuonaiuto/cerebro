@@ -11,7 +11,7 @@
 |---|---|---|---|
 | 0 | Scaffolding | 🟢 local done, awaiting GitHub push | 2026-07-17 |
 | 1 | BLUEPRINT.md + structure templates | 🟢 done | 2026-07-17 |
-| 2 | Installable Claude Skill | ⬜ | — |
+| 2 | Installable Claude Skill | 🟢 local done, 2 manual tests pending | 2026-07-17 |
 | 3 | PDF→markdown tooling | ⬜ | — |
 | 4 | Multi-AI templates + example brain | ⬜ | — |
 | 5 | README + launch (v1.0) | ⬜ | — |
@@ -33,6 +33,20 @@
 - [x] `templates/brain-structure/` replicates the structure declared in the
       blueprint exactly (verified by listing)
 - [x] `bash scripts/check.sh` green (lint + links)
+
+## Phase 2 checklist (local done 2026-07-17)
+
+- [x] `bash scripts/build-skill.sh` builds `dist/cerebro-skill.zip` containing
+      `SKILL.md` + `BLUEPRINT.md` (verified)
+- [x] CREATE mechanics verified: copying `templates/brain-structure/` yields a
+      complete brain matching the blueprint structure
+- [ ] **Manual (Andres):** upload `dist/cerebro-skill.zip` in claude.ai →
+      Settings → Capabilities → Skills without errors
+- [ ] **Manual (Andres):** in a clean Claude Code session, `/cerebro` creates a
+      test brain and the structure matches the blueprint
+
+To rebuild the zip for the upload test: `bash scripts/build-skill.sh`
+(output at `dist/cerebro-skill.zip`, gitignored).
 
 ## Dev environment
 

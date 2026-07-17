@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Package the Claude skill into dist/cerebro-skill.zip.
 # The zip must be self-contained: SKILL.md + an in-sync copy of BLUEPRINT.md.
+# Uses Python's zipfile (already a project dependency) so it works on any OS.
 set -euo pipefail
 cd "$(dirname "$0")/.." || exit 2
 
@@ -14,7 +15,4 @@ if [ -f BLUEPRINT.md ]; then
 fi
 
 mkdir -p dist
-rm -f dist/cerebro-skill.zip
-( cd skill && zip -r -q ../dist/cerebro-skill.zip . -x '*.DS_Store' )
-echo "Built dist/cerebro-skill.zip:"
-unzip -l dist/cerebro-skill.zip
+python scripts/zip_skill.py
