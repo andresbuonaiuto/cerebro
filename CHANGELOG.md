@@ -8,6 +8,10 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Added
 
+- Phase 3: `tools/convert.py`, a markitdown wrapper that converts PDF/docx/epub
+  sources to markdown so a brain reads the leaner markdown instead of raw PDFs.
+  Clear install hint and non-zero exit when markitdown is missing.
+  `tools/requirements.txt` pins the dependency.
 - Phase 2: portable `skill/SKILL.md` (English, no hardcoded paths) that drives
   the four operations in natural language, deferring to the bundled blueprint.
 - `scripts/build-skill.sh` + `scripts/zip_skill.py` package the skill into
