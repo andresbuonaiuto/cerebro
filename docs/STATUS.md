@@ -9,7 +9,7 @@
 
 | # | Phase | Status | Verified |
 |---|---|---|---|
-| 0 | Scaffolding | 🟡 in progress | — |
+| 0 | Scaffolding | 🟢 local done, awaiting GitHub push | 2026-07-17 |
 | 1 | BLUEPRINT.md + structure templates | ⬜ | — |
 | 2 | Installable Claude Skill | ⬜ | — |
 | 3 | PDF→markdown tooling | ⬜ | — |
@@ -18,11 +18,11 @@
 
 ## Phase 0 checklist
 
-- [ ] `git log` shows the initial commit and `git remote -v` points to the public GitHub repo
-- [ ] `bash scripts/check.sh` passes locally
-- [ ] First-push CI action is green on GitHub
+- [x] `git log` shows the initial commit (`git remote -v` still pending: manual GitHub step)
+- [x] `bash scripts/check.sh` passes locally (verified 2026-07-17)
+- [ ] First-push CI action is green on GitHub (blocked: needs the manual push below)
 - [x] `X:\Claude DeepSeek\cerebros\cerebros.md` exists and the personal skill points there
-- [x] `docs/STATUS.md` and ≥6 ADRs exist
+- [x] `docs/STATUS.md` and ≥6 ADRs exist (8 ADRs)
 
 **Blocker:** `gh` CLI is not installed on this machine. Creating the GitHub repo and the first push are a manual step for Andres (commands in "Pending, non-code" below).
 
