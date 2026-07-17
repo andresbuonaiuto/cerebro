@@ -1,0 +1,13 @@
+{
+  // Lenient config: keep structural rules, drop stylistic noise.
+  "config": {
+    "MD013": false, // line length
+    "MD033": false, // inline HTML (needed for some docs)
+    "MD040": false, // fenced code language (some plain blocks are fine)
+    "MD041": false, // first line heading (blueprint/skill start with frontmatter)
+    "MD060": false, // table column spacing (compact pipe tables are fine)
+    "MD024": { "siblings_only": true } // allow same heading in different sections
+  },
+  "globs": ["**/*.md"],
+  "ignores": ["dist/**", "node_modules/**", ".venv/**", "venv/**"]
+}

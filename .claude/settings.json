@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash scripts/check.sh)",
+      "Bash(bash scripts/build-skill.sh)",
+      "Bash(python scripts/check_links.py)",
+      "Bash(python tools/convert.py:*)",
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git add:*)",
+      "Bash(npx --yes markdownlint-cli2:*)"
+    ]
+  }
+}
