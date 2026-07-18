@@ -14,7 +14,7 @@
 | 2 | Installable Claude Skill | 🟢 local done, 2 manual tests pending | 2026-07-17 |
 | 3 | PDF→markdown tooling | 🟢 done | 2026-07-17 |
 | 4 | Multi-AI templates + example brain | 🟢 local done, 1 manual test pending | 2026-07-17 |
-| 5 | README + launch (v1.0) | ⬜ | - |
+| 5 | README + launch (v1.0) | 🟡 README done, needs cover image + push + article | 2026-07-17 |
 
 ## Phase 0 checklist
 
@@ -72,6 +72,16 @@ To rebuild the zip for the upload test: `bash scripts/build-skill.sh`
       Custom GPT with the example brain uploaded, confirm it cites pages and says
       "no coverage" when out of scope
 
+## Phase 5 checklist
+
+- [x] Polished README: hero image slot, tagline, badges, mermaid flow,
+      quickstart (3 options), the four operations, the example brain, source
+      conversion, and the Karpathy credit with what this kit adds
+- [ ] **Manual (Andres):** add `docs/assets/cover.png` (README references it)
+- [ ] **Manual (Andres):** run the quickstart cold in under 15 min, following
+      only the README
+- [ ] **Manual (Andres):** push, cut v1.0.0, publish the launch article (ES + EN)
+
 ## Dev environment
 
 - OS: Windows 10, bash via Git Bash / Bash tool.
@@ -84,14 +94,17 @@ To rebuild the zip for the upload test: `bash scripts/build-skill.sh`
 ## Pending, non-code (Andres)
 
 - Install `gh` (`winget install GitHub.cli`) OR create the repo manually at github.com/new named `cerebro`, public.
+- Drop the cover image at `docs/assets/cover.png` (wide banner, ~1280x640).
 - Then, from `X:\Claude DeepSeek\cerebro`:
 
   ```bash
-  git remote add origin https://github.com/<user>/cerebro.git
+  git remote add origin https://github.com/andresbuonaiuto/cerebro.git
   git push -u origin main
   ```
 
 - Confirm the CI action turns green after the push.
+- Cut a v1.0.0 release and write the launch article (ES + EN) on
+  andresbuonaiuto.com, updating both sitemaps.
 
 ## Known issues / notes
 

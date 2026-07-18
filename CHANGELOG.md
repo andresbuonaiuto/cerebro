@@ -8,6 +8,9 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Added
 
+- Phase 5: polished README (hero image slot, tagline, badges, a mermaid flow
+  diagram, a three-option quickstart, the four operations, the example brain,
+  and the Karpathy credit) plus `docs/assets/` for the cover image.
 - Phase 4: `templates/custom-gpt-prompt.md` (query a brain from ChatGPT) and
   `examples/business-brain/`, a complete worked example built from two
   public-domain classics (Wattles 1910, Barnum 1880) with 10 interlinked wiki
