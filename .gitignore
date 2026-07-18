@@ -1,0 +1,22 @@
+# Build artifacts
+dist/
+
+# Local agent settings (may contain machine-specific paths)
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Never commit source PDFs or private brain sources.
+# Only curated public-domain sources under examples/ are allowed.
+*.pdf
+*.epub
+*.docx
+!examples/**/*.pdf
