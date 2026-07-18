@@ -1,4 +1,4 @@
-# ADR NNN — Title
+# ADR NNN: Title
 
 - **Status:** accepted | superseded by ADR-XXX
 - **Date:** YYYY-MM-DD
@@ -9,8 +9,8 @@ What problem or question forced a decision. The constraints in play.
 
 ## Options considered
 
-- **Option A** — pros / cons.
-- **Option B** — pros / cons.
+- **Option A**: pros / cons.
+- **Option B**: pros / cons.
 
 ## Decision
 

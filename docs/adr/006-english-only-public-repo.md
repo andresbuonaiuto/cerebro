@@ -1,4 +1,4 @@
-# ADR 006 — English for all public content, commits included
+# ADR 006: English for all public content, commits included
 
 - **Status:** accepted
 - **Date:** 2026-07-17
@@ -10,8 +10,8 @@ public, portfolio-facing, international project.
 
 ## Options considered
 
-- **Spanish** — matches the maintainer's default and the private skill.
-- **English** — matches the target audience of a public GitHub tool.
+- **Spanish**: matches the maintainer's default and the private skill.
+- **English**: matches the target audience of a public GitHub tool.
 
 ## Decision
 

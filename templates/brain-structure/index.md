@@ -1,7 +1,7 @@
 # Index
 
 Catalog of every page in this brain, by category. The agent updates this on
-every ingest. Each line: `[[page-slug]] — one-line summary`.
+every ingest. Each line: `[[page-slug]] - one-line summary`.
 
 ## Sources
 

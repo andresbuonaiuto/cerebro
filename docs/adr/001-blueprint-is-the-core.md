@@ -1,4 +1,4 @@
-# ADR 001 — The blueprint is the core, the skill is a wrapper
+# ADR 001: The blueprint is the core, the skill is a wrapper
 
 - **Status:** accepted
 - **Date:** 2026-07-17
@@ -11,9 +11,9 @@ particular tool integration.
 
 ## Options considered
 
-- **Skill-first** — everything lives in the Claude Skill. Easiest for Claude
+- **Skill-first**: everything lives in the Claude Skill. Easiest for Claude
   users, but locks the pattern to one vendor and one format.
-- **Blueprint-first** — a normative markdown document (`BLUEPRINT.md`) is the
+- **Blueprint-first**: a normative markdown document (`BLUEPRINT.md`) is the
   product; the skill, `AGENTS.md`, and Custom GPT prompt are thin wrappers that
   point any agent to it.
 

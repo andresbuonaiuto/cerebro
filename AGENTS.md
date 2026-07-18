@@ -1,4 +1,4 @@
-# AGENTS.md — cerebro (repo)
+# AGENTS.md: cerebro (repo)
 
 Instructions for any AI agent working on **this repository** (the public kit).
 Not to be confused with the `AGENTS.md` that ships *inside* each brain (that one
@@ -6,7 +6,7 @@ is a copy of `BLUEPRINT.md`).
 
 ## Read first, every session
 
-1. [`docs/STATUS.md`](docs/STATUS.md) — the source of truth for progress. Never
+1. [`docs/STATUS.md`](docs/STATUS.md): the source of truth for progress. Never
    start work without reading it.
 2. The master plan lives outside the repo: `X:\Claude DeepSeek\PLAN-CEREBRO.md`.
 

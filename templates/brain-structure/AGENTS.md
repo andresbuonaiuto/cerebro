@@ -1,4 +1,4 @@
-# AGENTS.md — {{BRAIN_NAME}}
+# AGENTS.md: {{BRAIN_NAME}}
 
 Operating manual for any AI agent maintaining this brain. This file is
 self-contained: it does not depend on the cerebro repo being present.

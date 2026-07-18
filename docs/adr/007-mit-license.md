@@ -1,4 +1,4 @@
-# ADR 007 — MIT license
+# ADR 007: MIT license
 
 - **Status:** accepted
 - **Date:** 2026-07-17
@@ -10,9 +10,9 @@ widest possible adoption as a portfolio piece.
 
 ## Options considered
 
-- **MIT** — permissive, standard for tooling, maximum adoption.
-- **CC BY** — natural for docs, but unusual for a repo that also ships code.
-- **GPL** — copyleft; discourages the casual reuse we want to encourage.
+- **MIT**: permissive, standard for tooling, maximum adoption.
+- **CC BY**: natural for docs, but unusual for a repo that also ships code.
+- **GPL**: copyleft; discourages the casual reuse we want to encourage.
 
 ## Decision
 

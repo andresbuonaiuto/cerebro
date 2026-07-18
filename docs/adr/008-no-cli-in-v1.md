@@ -1,4 +1,4 @@
-# ADR 008 — No npm/npx CLI in v1
+# ADR 008: No npm/npx CLI in v1
 
 - **Status:** accepted
 - **Date:** 2026-07-17
@@ -10,9 +10,9 @@ package to publish, version, and maintain.
 
 ## Options considered
 
-- **Ship a CLI in v1** — nicer UX, but more surface area and maintenance before
+- **Ship a CLI in v1**: nicer UX, but more surface area and maintenance before
   the pattern has any traction.
-- **No CLI in v1** — the skill and `templates/brain-structure/` cover scaffolding;
+- **No CLI in v1**: the skill and `templates/brain-structure/` cover scaffolding;
   revisit a CLI only if the repo gains users.
 
 ## Decision

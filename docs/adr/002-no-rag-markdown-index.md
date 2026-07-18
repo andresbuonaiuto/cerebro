@@ -1,4 +1,4 @@
-# ADR 002 — No RAG: a markdown index is the search mechanism
+# ADR 002: No RAG: a markdown index is the search mechanism
 
 - **Status:** accepted
 - **Date:** 2026-07-17
@@ -11,9 +11,9 @@ wiki instead of re-retrieving raw chunks per query.
 
 ## Options considered
 
-- **Embeddings/RAG** — scales to large corpora, but adds infrastructure, hides
+- **Embeddings/RAG**: scales to large corpora, but adds infrastructure, hides
   reasoning behind opaque retrieval, and re-derives knowledge on every query.
-- **Markdown index (`index.md`) + hand-maintained wiki** — the LLM reads the
+- **Markdown index (`index.md`) + hand-maintained wiki**: the LLM reads the
   index to find pages, then reads those pages. No vector DB.
 
 ## Decision
