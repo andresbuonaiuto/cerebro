@@ -2,7 +2,7 @@
 
 > **READ THIS FIRST AT THE START OF EVERY SESSION.**
 > This file is the single source of truth for project progress.
-> Master plan: [`../../PLAN-CEREBRO.md`](../../PLAN-CEREBRO.md) (kept outside the repo, in `X:\Claude DeepSeek\`).
+> Master plan: `PLAN-CEREBRO.md`, kept outside the repo (not published) in the maintainer's local `X:\Claude DeepSeek\`.
 > Last updated: 2026-07-17
 
 ## Phases

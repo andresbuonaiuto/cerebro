@@ -6,6 +6,13 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+### Fixed
+
+- `docs/STATUS.md` referenced the master plan as a markdown link to a path
+  outside the repo, which only resolved locally (the plan is intentionally not
+  published). CI's link checker correctly caught this on the first real push;
+  changed to a plain-text reference.
+
 ### Added
 
 - `docs/assets/cover.png`, the repository cover image.
