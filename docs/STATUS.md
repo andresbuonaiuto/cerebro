@@ -14,7 +14,7 @@
 | 2 | Installable Claude Skill | 🟢 local done, 2 manual tests pending | 2026-07-17 |
 | 3 | PDF→markdown tooling | 🟢 done | 2026-07-17 |
 | 4 | Multi-AI templates + example brain | 🟢 local done, 1 manual test pending | 2026-07-17 |
-| 5 | README + launch (v1.0) | 🟡 README done, needs cover image + push + article | 2026-07-17 |
+| 5 | README + launch (v1.0) | 🟢 local done, awaiting push + release | 2026-07-18 |
 
 ## Phase 0 checklist
 
@@ -77,10 +77,22 @@ To rebuild the zip for the upload test: `bash scripts/build-skill.sh`
 - [x] Polished README: hero image slot, tagline, badges, mermaid flow,
       quickstart (3 options), the four operations, the example brain, source
       conversion, and the Karpathy credit with what this kit adds
-- [ ] **Manual (Andres):** add `docs/assets/cover.png` (README references it)
+- [x] `docs/assets/cover.png` added (cover image supplied by Andres)
 - [ ] **Manual (Andres):** run the quickstart cold in under 15 min, following
       only the README
 - [ ] **Manual (Andres):** push, cut v1.0.0, publish the launch article (ES + EN)
+
+## Marketing (2026-07-18)
+
+- [x] Project card + case-study page added to andresbuonaiuto.com, ES and EN,
+      matching the tokenbreak editorial pattern: `proyectos/cerebro.astro` +
+      `en/projects/cerebro.astro`, both `index.astro` files, cover converted to
+      `public/images/proyectos/cerebro.webp`. Verified with `npm run build`
+      (both pages compile, sitemap regenerates) and a visual check in-browser.
+- [x] Draft posts for LinkedIn and Reddit at `docs/assets/linkedin-post.md` and
+      `docs/assets/reddit-post.md`.
+- [ ] **Manual (Andres):** deploy the personal site (Cloudflare Worker
+      `peaceful-pegasi`) and publish the posts.
 
 ## Dev environment
 
