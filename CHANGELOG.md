@@ -8,6 +8,11 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Added
 
+- Phase 4: `templates/custom-gpt-prompt.md` (query a brain from ChatGPT) and
+  `examples/business-brain/`, a complete worked example built from two
+  public-domain classics (Wattles 1910, Barnum 1880) with 10 interlinked wiki
+  pages, a contradiction demo, and an idea-validation answer.
+- Removed all em dashes from repo content to match the project writing rule.
 - Phase 3: `tools/convert.py`, a markitdown wrapper that converts PDF/docx/epub
   sources to markdown so a brain reads the leaner markdown instead of raw PDFs.
   Clear install hint and non-zero exit when markitdown is missing.

@@ -1,4 +1,4 @@
-# ADR 004 — Multi-AI support via AGENTS.md and a Custom GPT prompt
+# ADR 004: Multi-AI support via AGENTS.md and a Custom GPT prompt
 
 - **Status:** accepted
 - **Date:** 2026-07-17
@@ -11,8 +11,8 @@ Projects rather than installable skills.
 
 ## Options considered
 
-- **Claude-only** — simplest, but abandons a large audience.
-- **AGENTS.md + Custom GPT prompt** — cover CLI agents via the de-facto
+- **Claude-only**: simplest, but abandons a large audience.
+- **AGENTS.md + Custom GPT prompt**: cover CLI agents via the de-facto
   `AGENTS.md` standard, and ChatGPT via a pasteable Custom GPT instruction set.
 
 ## Decision

@@ -1,6 +1,6 @@
 ---
 name: cerebro
-description: Create and maintain "brains" — persistent, interlinked markdown knowledge bases that an LLM builds from your sources (books, PDFs, articles) and keeps current, so you can cite them to validate ideas and make decisions. Use when the user says /cerebro, "create a brain", "ingest this book/PDF into the brain", "query the brain about X", "validate this idea against the brain", or "lint the brain".
+description: Create and maintain "brains": persistent, interlinked markdown knowledge bases that an LLM builds from your sources (books, PDFs, articles) and keeps current, so you can cite them to validate ideas and make decisions. Use when the user says /cerebro, "create a brain", "ingest this book/PDF into the brain", "query the brain about X", "validate this idea against the brain", or "lint the brain".
 ---
 
 # cerebro

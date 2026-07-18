@@ -1,4 +1,4 @@
-# STATUS — cerebro
+# STATUS: cerebro
 
 > **READ THIS FIRST AT THE START OF EVERY SESSION.**
 > This file is the single source of truth for project progress.
@@ -13,8 +13,8 @@
 | 1 | BLUEPRINT.md + structure templates | 🟢 done | 2026-07-17 |
 | 2 | Installable Claude Skill | 🟢 local done, 2 manual tests pending | 2026-07-17 |
 | 3 | PDF→markdown tooling | 🟢 done | 2026-07-17 |
-| 4 | Multi-AI templates + example brain | ⬜ | — |
-| 5 | README + launch (v1.0) | ⬜ | — |
+| 4 | Multi-AI templates + example brain | 🟢 local done, 1 manual test pending | 2026-07-17 |
+| 5 | README + launch (v1.0) | ⬜ | - |
 
 ## Phase 0 checklist
 
@@ -57,6 +57,20 @@ To rebuild the zip for the upload test: `bash scripts/build-skill.sh`
 - [>] Headline PDF-vs-md token figures deferred to phase 4: this machine had no
       representative book-sized PDF, so the comparison is done on a real
       public-domain book when the example brain is built.
+
+## Phase 4 checklist (local done 2026-07-17)
+
+- [x] `templates/custom-gpt-prompt.md` for ChatGPT Custom GPTs / Projects
+- [x] `examples/business-brain/` has 2 public-domain sources (Wattles 1910,
+      Barnum 1880), 10 wiki pages, coherent `index.md` and `log.md`, a
+      `## Contradiction` demo, and an idea-validation answer page
+- [x] All example `[[wikilinks]]` resolve (verified); example sources are public
+      domain (pre-1929, US)
+- [x] Token savings handled by `convert.py`'s token readout; README framing in
+      phase 5 (no fabricated multiplier)
+- [ ] **Manual (Andres):** paste `templates/custom-gpt-prompt.md` into a ChatGPT
+      Custom GPT with the example brain uploaded, confirm it cites pages and says
+      "no coverage" when out of scope
 
 ## Dev environment
 

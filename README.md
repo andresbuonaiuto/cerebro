@@ -8,10 +8,10 @@ A brain is a curated collection of sources (books, PDFs, articles) that the LLM 
 
 ## What this is
 
-- **`BLUEPRINT.md`** — the normative pattern any LLM follows to create, ingest, query, and lint a brain. This is the core of the project.
-- **A Claude Skill** — install it in Claude (Desktop, Code, or claude.ai) to drive the whole workflow in natural language.
-- **Multi-AI templates** — an `AGENTS.md` (for Codex, Cursor, Gemini CLI) and a Custom GPT prompt, so the pattern is not locked to one vendor.
-- **PDF→markdown tooling** — convert sources once and read the markdown, saving 5-10x the tokens of reading raw PDFs.
+- **`BLUEPRINT.md`**: the normative pattern any LLM follows to create, ingest, query, and lint a brain. This is the core of the project.
+- **A Claude Skill**: install it in Claude (Desktop, Code, or claude.ai) to drive the whole workflow in natural language.
+- **Multi-AI templates**: an `AGENTS.md` (for Codex, Cursor, Gemini CLI) and a Custom GPT prompt, so the pattern is not locked to one vendor.
+- **PDF→markdown tooling**: convert sources once and read the markdown, saving 5-10x the tokens of reading raw PDFs.
 
 ## Credit
 
