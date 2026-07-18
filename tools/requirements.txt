@@ -1,0 +1,4 @@
+# Source conversion for cerebro. Install with:
+#   pip install -r tools/requirements.txt
+# markitdown[all] pulls the optional format handlers (pdf, docx, pptx, xlsx, ...).
+markitdown[all]>=0.0.1a2

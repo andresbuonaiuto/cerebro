@@ -12,7 +12,7 @@
 | 0 | Scaffolding | 🟢 local done, awaiting GitHub push | 2026-07-17 |
 | 1 | BLUEPRINT.md + structure templates | 🟢 done | 2026-07-17 |
 | 2 | Installable Claude Skill | 🟢 local done, 2 manual tests pending | 2026-07-17 |
-| 3 | PDF→markdown tooling | ⬜ | — |
+| 3 | PDF→markdown tooling | 🟢 done | 2026-07-17 |
 | 4 | Multi-AI templates + example brain | ⬜ | — |
 | 5 | README + launch (v1.0) | ⬜ | — |
 
@@ -47,6 +47,16 @@
 
 To rebuild the zip for the upload test: `bash scripts/build-skill.sh`
 (output at `dist/cerebro-skill.zip`, gitignored).
+
+## Phase 3 checklist (done 2026-07-17)
+
+- [x] `tools/convert.py` produces readable markdown (verified with markitdown in
+      an isolated venv; both a real PDF conversion and the output were checked)
+- [x] With markitdown not installed, `convert.py` prints the install hint and
+      exits non-zero (verified)
+- [>] Headline PDF-vs-md token figures deferred to phase 4: this machine had no
+      representative book-sized PDF, so the comparison is done on a real
+      public-domain book when the example brain is built.
 
 ## Dev environment
 
