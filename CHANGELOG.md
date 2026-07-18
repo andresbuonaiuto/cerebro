@@ -8,6 +8,8 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Added
 
+- `docs/assets/cover.png`, the repository cover image.
+- Draft launch posts for LinkedIn and Reddit at `docs/assets/`.
 - Phase 5: polished README (hero image slot, tagline, badges, a mermaid flow
   diagram, a three-option quickstart, the four operations, the example brain,
   and the Karpathy credit) plus `docs/assets/` for the cover image.
