@@ -8,6 +8,11 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Added
 
+- Phase 1: `BLUEPRINT.md`, the normative spec for building and maintaining a
+  brain (core principle, page conventions with confidence levels, the four
+  operations, contradiction handling, source conversion, scale rules).
+- `templates/brain-structure/`, a complete copyable brain skeleton (AGENTS.md
+  schema, CLAUDE.md pointer, index.md, log.md, and the folder tree).
 - Phase 0 scaffolding: STATUS.md, 8 ADRs, AGENTS.md/CLAUDE.md, MIT license.
 - Quality gates (`scripts/check.sh`): markdownlint, internal-link check,
   python compile, blueprint-copy sync. GitHub Actions CI running the same gates.
