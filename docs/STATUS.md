@@ -9,22 +9,24 @@
 
 | # | Phase | Status | Verified |
 |---|---|---|---|
-| 0 | Scaffolding | 🟢 local done, awaiting GitHub push | 2026-07-17 |
+| 0 | Scaffolding | 🟢 done, published | 2026-07-17 |
 | 1 | BLUEPRINT.md + structure templates | 🟢 done | 2026-07-17 |
 | 2 | Installable Claude Skill | 🟢 local done, 2 manual tests pending | 2026-07-17 |
 | 3 | PDF→markdown tooling | 🟢 done | 2026-07-17 |
 | 4 | Multi-AI templates + example brain | 🟢 local done, 1 manual test pending | 2026-07-17 |
-| 5 | README + launch (v1.0) | 🟢 local done, awaiting push + release | 2026-07-18 |
+| 5 | README + launch (v1.0) | 🟢 done, published | 2026-07-18 |
 
 ## Phase 0 checklist
 
-- [x] `git log` shows the initial commit (`git remote -v` still pending: manual GitHub step)
+- [x] `git log` shows the initial commit; `git remote -v` points to
+      github.com/andresbuonaiuto/cerebro
 - [x] `bash scripts/check.sh` passes locally (verified 2026-07-17)
-- [ ] First-push CI action is green on GitHub (blocked: needs the manual push below)
+- [x] CI is green on GitHub (verified 2026-07-18, run 29656087174)
 - [x] `X:\Claude DeepSeek\cerebros\cerebros.md` exists and the personal skill points there
 - [x] `docs/STATUS.md` and ≥6 ADRs exist (8 ADRs)
 
-**Blocker:** `gh` CLI is not installed on this machine. Creating the GitHub repo and the first push are a manual step for Andres (commands in "Pending, non-code" below).
+Published 2026-07-18: repo at github.com/andresbuonaiuto/cerebro, `gh` CLI
+installed and authenticated, CI green, v1.0.0 released.
 
 ## Phase 1 checklist (done 2026-07-17)
 
@@ -80,7 +82,9 @@ To rebuild the zip for the upload test: `bash scripts/build-skill.sh`
 - [x] `docs/assets/cover.png` added (cover image supplied by Andres)
 - [ ] **Manual (Andres):** run the quickstart cold in under 15 min, following
       only the README
-- [ ] **Manual (Andres):** push, cut v1.0.0, publish the launch article (ES + EN)
+- [x] Pushed to github.com/andresbuonaiuto/cerebro, CI green
+- [x] v1.0.0 released: github.com/andresbuonaiuto/cerebro/releases/tag/v1.0.0
+- [ ] **Manual (Andres):** publish the launch article (ES + EN)
 
 ## Marketing (2026-07-18)
 
